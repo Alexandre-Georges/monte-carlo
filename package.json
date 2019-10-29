@@ -1,0 +1,28 @@
+{
+  "name": "monte-carlo",
+  "version": "1.0.0",
+  "description": "Monte Carlo simulation",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "webpack",
+    "webpack:watch": "webpack --watch",
+    "python": "env FLASK_APP=server.py flask run",
+    "python:dev": "env FLASK_APP=server.py FLASK_DEBUG=1 flask run"
+  },
+  "keywords": [
+    "monte",
+    "carlo",
+    "simulation"
+  ],
+  "author": "Alexandre Georges",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "svelte": "^3.12.1"
+  },
+  "devDependencies": {
+    "svelte-loader": "^2.13.6",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.8"
+  }
+}
